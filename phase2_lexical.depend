@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1622753337 source:/home/sara/work-space/c++/compiler/phase2_lexical/generate_follow.cpp
+	"generate_follow.h"
+
+1622753337 /home/sara/work-space/c++/compiler/phase2_lexical/generate_follow.h
+	"parse_grammar.h"
+	<bits/stdc++.h>
+
+1622753337 /home/sara/work-space/c++/compiler/phase2_lexical/parse_grammar.h
+	<bits/stdc++.h>
+
+1622753337 source:/home/sara/work-space/c++/compiler/phase2_lexical/generate_table.cpp
+	"generate_table.h"
+
+1622753337 /home/sara/work-space/c++/compiler/phase2_lexical/generate_table.h
+	"generate_follow.h"
+	<bits/stdc++.h>
+
+1622753337 source:/home/sara/work-space/c++/compiler/phase2_lexical/main.cpp
+	<iostream>
+	<fstream>
+	"parse_grammar.h"
+	"generate_follow.h"
+	"generate_table.h"
+	<bits/stdc++.h>
+
+1622753337 source:/home/sara/work-space/c++/compiler/phase2_lexical/parse_grammar.cpp
+	"parse_grammar.h"
+	<bits/stdc++.h>
+	<string>
+
